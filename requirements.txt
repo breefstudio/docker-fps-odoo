@@ -1,0 +1,15 @@
+# setuptools==39.0.1
+wheel==0.30.0
+setuptools==68.0.0
+
+bcrypt==3.2.0
+cryptography==3.4.6
+
+simplejson==3.17.6
+
+boto3==1.17.23
+botocore==1.20.61
+importlib-metadata==3.7.2
+numpy==1.21.2
+paramiko==2.7.2
+xendit-python==0.1.1
