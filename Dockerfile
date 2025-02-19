@@ -12,6 +12,7 @@ RUN apt install -y build-essential python3-dev python3-wheel libffi-dev rustc
 # RUN source /venv/bin/activate
 
 COPY --chown=odoo:odoo ./requirements.txt /mnt/extra-addons/requirements.txt
+
 RUN python3 -m pip install -r /mnt/extra-addons/requirements.txt
 
 RUN apt remove -y build-essential python3-dev python3-wheel libffi-dev rustc \
