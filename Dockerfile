@@ -1,4 +1,4 @@
-FROM odoo:13 as build
+FROM odoo:13 AS build
 USER root
 
 RUN python3 -m pip list

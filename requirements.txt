@@ -13,3 +13,8 @@ importlib-metadata==3.7.2
 numpy==1.21.2
 paramiko==2.7.2
 xendit-python==0.1.1
+
+
+# two_factor_otp_auth
+qrcode==5.3
+pyotp==2.3.0
